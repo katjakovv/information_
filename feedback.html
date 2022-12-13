@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+      <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Оставить отзыв об учебе в ВШЭ</title>
+   </head>
+   <body class="feedback">
+      <div class="nav">
+         <a href="./"><img src="img/logo.svg" alt="лого вшэ" /></a>
+         <div>
+            <div class="nav-links">
+               <a href="math.html">ФМ</a>
+               <a href="economy.html">ФЭН</a>
+               <a href="business.html">ВШБ</a>
+               <a href="law.html">ФП</a>
+               <a href="math.html#block-fourth">МИТАП 2.0</a>
+            </div>
+            <div class="nav-links-external">
+               <a target="_blank" href="https://www.hse.ru/">ВШЭ</a>
+               <a target="_blank" href="https://www.hse.ru/orgstructure/">ПОДРАЗДЕЛЕНИЯ</a>
+               <a target="_blank" href="https://www.hse.ru/figures/">СТАТИСТИКА</a>
+            </div>
+         </div>
+      </div>
+      <div class="wrapper">
+         <div class="form-block">
+            <h1>Оставить отзыв:</h1>
+            <form id="form-feedback" action="http://185.182.111.214:7628/cgi-bin/form_action.py" method="POST" class="form-feedback">
+               <div class="form-feedback">
+                  <div>
+                     <label for="name">Ваше имя:</label>
+                     <input type="text" name="name" id="name" required placeholder="Екатерина" />
+                     <label for="name">Ваш e-mail: </label>
+                     <input type="email" id="email" size="30" required placeholder="ekaterina@hse.ru" />
+                  </div>
+                  <label id="text-feedback" for="name">Ваш отзыв:</label>
+                  <textarea placeholder="Напишите о вашем опыте учебы в ВШЭ..."></textarea>
+               </div>
+               <input id="button" type="button" value="Отправить" />
+            </form>
+         </div>
+         <div class="data-block">
+            <a href="index.html#form-explore">Унать подробнее о факульетах ВШЭ</a>
+            <a href="feedback.html#form-feedback">Оставить отзыв о ВШЭ</a>
+         </div>
+      </div>
+   </body>
+</html>

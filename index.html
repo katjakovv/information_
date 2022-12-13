@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+      <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Информационная среда про факультеты HSE — Екатерина Ковалева</title>
+   </head>
+   <body class="task">
+      <div class="nav">
+         <a href="./"><img src="img/logo.svg" alt="лого вшэ" /></a>
+         <div>
+            <div class="nav-links">
+               <a href="math.html">ФМ</a>
+               <a href="economy.html">ФЭН</a>
+               <a href="business.html">ВШБ</a>
+               <a href="law.html">ФП</a>
+               <a href="math.html#block-fourth">МИТАП 2.0</a>
+            </div>
+            <div class="nav-links-external">
+               <a target="_blank" href="https://www.hse.ru/">ВШЭ</a>
+               <a target="_blank" href="https://www.hse.ru/orgstructure/">ПОДРАЗДЕЛЕНИЯ</a>
+               <a target="_blank" href="https://www.hse.ru/figures/">СТАТИСТИКА</a>
+            </div>
+         </div>
+      </div>
+      <div class="wrapper">
+         <div class="content-block">
+            <div class="simple-links">
+               <div class="computer">
+                  <a href="math.html">Факультет математики</a>
+                  <a href="https://cs.hse.ru/">ФМ ХСЕ</a>
+               </div>
+               <div class="creative">
+                  <a href="economy.html">Факультет экономических наук</a>
+                  <a href="https://cmd.hse.ru/">ФЭН ХСЕ</a>
+               </div>
+               <div class="business">
+                  <a href="business.html">Высшая школа бизнеса</a>
+                  <a href="https://gsb.hse.ru/">ВШБ ХСЕ</a>
+               </div>
+               <div class="law">
+                  <a href="law.html">Факультет права</a>
+                  <a href="https://pravo.hse.ru/">ФП ХСЕ</a>
+               </div>
+            </div>
+            <div class="hse-img">
+               <a href="https://www.hse.ru/"> <img src="img/hse.jpeg" alt="здание ВШЭ" /></a>
+               <h3 class="text">Корпус ВШЭ на Мясницкой</h3>
+            </div>
+         </div>
+         <div class="form-block">
+            <h1>Унать подробнее о факульетах ВШЭ:</h1>
+            <form id="form-explore" action="#" method="POST" class="form-explore">
+               <div class="form-explore">
+                  <label for="name">Фамилия: </label>
+                  <input type="text" name="name" id="surname" required placeholder="Ковалева" />
+                  <label for="name">Имя: </label>
+                  <input type="text" name="name" id="name" required placeholder="Екатерина" />
+                  <label for="name">Телефон: </label>
+                  <input type="tel" id="phone" name="phone" required placeholder="+9 (111)-22-33" />
+                  <label for="name">E-mail: </label>
+                  <input type="email" id="email" size="30" required placeholder="ekaterina@hse.ru" />
+                  <label for="start">Дата отправки:</label>
+                  <input type="date" id="start" name="trip-start" value="2022-12-13" min="2000-01-01" max="2023-01-01" />
+               </div>
+               <input id="button" type="button" value="Отправить" />
+            </form>
+         </div>
+         <div class="data-block">
+            <a href="feedback.html#form-feedback">Оставить отзыв о ВШЭ</a>
+            <a href="discount.html#form-discount">Расчитать потенциальную скидку</a>
+         </div>
+      </div>
+   </body>
+</html>

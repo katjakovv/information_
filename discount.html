@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+      <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Рассчитать стоимость обучения в ВШЭ</title>
+   </head>
+   <body class="discount">
+      <div class="nav">
+         <a href="./"><img src="img/logo.svg" alt="лого вшэ" /></a>
+         <div>
+            <div class="nav-links">
+               <a href="math.html">ФМ</a>
+               <a href="economy.html">ФЭН</a>
+               <a href="business.html">ВШБ</a>
+               <a href="law.html">ФП</a>
+               <a href="math.html#block-fourth">МИТАП 2.0</a>
+            </div>
+            <div class="nav-links-external">
+               <a target="_blank" href="https://www.hse.ru/">ВШЭ</a>
+               <a target="_blank" href="https://www.hse.ru/orgstructure/">ПОДРАЗДЕЛЕНИЯ</a>
+               <a target="_blank" href="https://www.hse.ru/figures/">СТАТИСТИКА</a>
+            </div>
+         </div>
+      </div>
+      <div class="wrapper">
+         <div class="form-block">
+            <h1>Рассчитать стоимость обучения:</h1>
+            <form id="form-discount" method="POST" action="http://185.182.111.214:7628/cgi-bin/form_action.py" id="UserEnter" name="UserEnter" target="_blank">
+               <div class="discount">
+                  <div>
+                     <label>Стоимость обучения: </label>
+                     <input id="a" type="number" value="500000" /><br /><br />
+                     <label>Скидка: </label>
+                     <input id="b" type="number" value="50" /><br />
+                  </div>
+               </div>
+               <input id="calculate" type="button" value="Рассчитать" onclick="addition();" /><br />
+               <div id="result"></div>
+            </form>
+         </div>
+         <div class="data-block">
+            <a href="index.html#form-explore">Унать подробнее о факульетах ВШЭ</a>
+            <a href="discount.html#form-discount">Расчитать потенциальную скидку</a>
+         </div>
+      </div>
+      <script src="js/discount.js"></script>
+   </body>
+</html>
