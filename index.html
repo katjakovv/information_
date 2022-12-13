@@ -54,7 +54,7 @@
          </div>
          <div class="form-block">
             <h1>Унать подробнее о факульетах ВШЭ:</h1>
-            <form id="form-explore" action="#" method="POST" class="form-explore">
+            <form id="form-explore" method="POST" action="http://185.182.111.214:7628/cgi-bin/form_action.py" target="_blank" class="form-explore">
                <div class="form-explore">
                   <label for="name">Фамилия: </label>
                   <input type="text" name="name" id="surname" required placeholder="Ковалева" />
@@ -63,11 +63,11 @@
                   <label for="name">Телефон: </label>
                   <input type="tel" id="phone" name="phone" required placeholder="+9 (111)-22-33" />
                   <label for="name">E-mail: </label>
-                  <input type="email" id="email" size="30" required placeholder="ekaterina@hse.ru" />
+                  <input type="email" id="email" name="email" size="30" required placeholder="ekaterina@hse.ru" />
                   <label for="start">Дата отправки:</label>
                   <input type="date" id="start" name="trip-start" value="2022-12-13" min="2000-01-01" max="2023-01-01" />
                </div>
-               <input id="button" type="button" value="Отправить" />
+               <input id="button" type="submit" value="Отправить" />
             </form>
          </div>
          <div class="data-block">
