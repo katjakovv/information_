@@ -1414,6 +1414,7 @@ body.feedback .wrapper .form-block h1 {
   font-weight: 600;
   color: yellow;
   font-size: 3vw;
+  padding-bottom: 2vw;
 }
 body.feedback .wrapper .form-block h1:hover {
   color: grey;
@@ -1435,9 +1436,9 @@ body.feedback .wrapper .form-block form div:nth-child(1) label {
 body.feedback .wrapper .form-block form div:nth-child(1) input {
   font-family: "Open Sans", sans-serif;
   width: 30vw;
-  height: 2vw;
-  padding-left: 1vw;
-  padding-bottom: 1vw;
+  height: 4vw;
+  padding-top: 1vw;
+  padding-bottom: 1.5vw;
   font-size: 3rem;
   outline: 1px solid #111;
 }
@@ -1589,9 +1590,8 @@ body.discount .wrapper .form-block form div label {
 body.discount .wrapper .form-block form div input {
   font-family: "Open Sans", sans-serif;
   width: 30vw;
-  height: 2vw;
-  padding-left: 1vw;
-  padding-bottom: 1vw;
+  height: 4vw;
+  padding: 1vw;
   font-size: 2rem;
   outline: 1px solid #111;
 }

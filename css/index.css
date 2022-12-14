@@ -108,6 +108,7 @@ body.task .wrapper .form-block h1 {
   font-weight: 600;
   color: yellow;
   font-size: 3vw;
+  padding-bottom: 5vw;
 }
 body.task .wrapper .form-block h1:hover {
   color: grey;
@@ -128,7 +129,7 @@ body.task .wrapper .form-block form div:nth-child(1) label {
 body.task .wrapper .form-block form div:nth-child(1) input {
   font-family: "Open Sans", sans-serif;
   width: 30vw;
-  height: 2vw;
+  height: 3vw;
   padding-left: 1vw;
   padding-bottom: 1vw;
   font-size: 3rem;
